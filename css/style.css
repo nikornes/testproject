@@ -30,9 +30,7 @@ ul {
   font-family: "Georgia", "sans-serif";
   font-size: 35px;
   padding: 100px 0 110px 0;
-
 }
-
 
 .navigation {
   display: flex;
@@ -41,9 +39,44 @@ ul {
 .nav__items {
   display: flex;
   gap: 10px;
-
 }
 
 .blog {
   background: #FAFAFA;
+  padding: 20px 16px;
+
+}
+.posts {
+  display: flex;
+  gap: 16px;
+
+}
+.container__1 {
+  max-width: 507px;
+  background: #ffffff;
+  display: flex;
+}
+
+.container__2 {
+  max-width: 245px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.travel {
+
+}
+
+.theme  {
+  padding: 10px 10px;
+}
+.blog__name {
+  padding: 10px 10px;
+}
+.discription {
+    padding: 10px 10px;
+}
+.date {
+  padding: 10px 10px;
 }
