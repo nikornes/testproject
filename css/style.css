@@ -12,10 +12,22 @@ ul {
   width: 100%;
   max-width: 768px;
   margin: 0 auto;
+
 }
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #FAFAFA;
+}
+
 .header__container {
   max-width: 1200px;
-  font-family: "Georgia", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  font-style: normal;
 }
 
 .header__items {
@@ -25,10 +37,13 @@ ul {
   justify-content: space-between;
 
 }
+
 .main__container {
   display: flex;
-  font-family: "Georgia", "sans-serif";
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
   font-size: 35px;
+  font-style: normal;
   padding: 100px 0 110px 0;
 }
 
@@ -36,6 +51,7 @@ ul {
   display: flex;
   align-items: end;
 }
+
 .nav__items {
   display: flex;
   gap: 10px;
@@ -43,40 +59,212 @@ ul {
 
 .blog {
   background: #FAFAFA;
-  padding: 20px 16px;
+  padding: 105px 0;
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.blog__first-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container__left {
+  max-width: 505px;
+  display: flex;
+}
+
+.container__right {
+  max-width: 245px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 
 }
-.posts {
+
+
+.travel {
+  background: #ffff;
+  border-radius: 20px;
+  max-height: 553px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.climbing {
+  background: #ffff;
+  border-radius: 20px;
+  max-height: 258px;
+
+}
+
+.photo {
+  background: #ffff;
+  border-radius: 20px;
+  max-height: 279px;
+}
+
+.blog__post-img {
+  margin-bottom: 20px;
+}
+.theme {
+  padding: 0 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  font-style: normal;
+  margin-bottom: 9px;
+}
+
+.blog__name {
+  padding: 0 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 12px;
+}
+
+.discription {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: italic;
+  padding: 0 10px;
+}
+
+.date {
+  padding: 0 10px 30px;
+  font-family: "Poppins", sans-serif;
+  font-size: 11px;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.upper__contaier {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.container__3 {
   display: flex;
   gap: 16px;
 
 }
-.container__1 {
-  max-width: 507px;
-  background: #ffffff;
+
+.dron {
+  background: #ffff;
+  border-radius: 20px;
+  max-width: 376px;
+  max-height: 334px;
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.container__2 {
+.people {
+  background: #ffff;
+  border-radius: 20px;
+  max-width: 376px;
+  max-height: 334px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+.lower__container {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.container__4 {
+  display: flex;
+  gap: 16px;
+
+}
+
+.pen {
+  background: #ffff;
+  border-radius: 20px;
   max-width: 245px;
-  background: #ffffff;
+  max-height: 273px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.man {
+  background: #ffff;
+  border-radius: 20px;
+  max-width: 245px;
+  max-height: 273px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mac {
+  background: #ffff;
+  border-radius: 20px;
+  max-width: 245px;
+  max-height: 273px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.email {
+  background: #ffff;
+  padding: 100px 0;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.email__main__block {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.email__name__block{
   display: flex;
   flex-direction: column;
 }
 
-.travel {
-
+.email__address__block {
+  display: flex;
+  flex-direction: column;
 }
 
-.theme  {
-  padding: 10px 10px;
+.email__text {
+  max-width: 376px;
+  max-height: 187px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-.blog__name {
-  padding: 10px 10px;
+
+.email__block {
+  max-width: 376px;
+  max-height: 187px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-.discription {
-    padding: 10px 10px;
-}
-.date {
-  padding: 10px 10px;
+
+.email__button {
+  background: #353732;
+  width: 82px;
+  height: 38px;
 }
