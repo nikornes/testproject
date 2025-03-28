@@ -21,9 +21,9 @@
     <img class="logo__header" src="img/Calm-Logotype.svg" alt="logo">
     <nav class="navigation">
       <ul class="nav__items">
-        <li class="nav__item">Home</li>
-        <li class="nav__item">Archive</li>
-        <li class="nav__item">About</li>
+        <button class="nav__item">Home</button>
+        <button class="nav__item">Archive</button>
+        <button class="nav__item">About</button>
       </ul>
     </nav>
   </div>
@@ -489,14 +489,32 @@
         </div>
       </div>
     </div>
+    <button class="button__view-archive container">
+      View archive
+      <img class="button_arrow" src="img/Arrow-Icon-Primary.svg" alt="Arrow"/>
+    </button>
   </div>
-  <div class="button__view-archive">
-    <button class="archive__button" type="button">View archive</button>
-    <button class="archive__button" type="button"><img src="img/Arrow-Icon-Primary.svg" alt="Arrow"></button>
-  </div>
+
 </section>
 </body>
-<footer>
-
+<footer class="footer">
+  <div class="footer__content container">
+    <div class="footer__information">
+      <img src="img/Calm-Logotype.svg" alt="logo">
+      <p class="footer__text">A lifestyle blog about minimalism, technology, design & travel. Powered by Webflow.</p>
+      <div class="footer__buttons">
+        <div class="upper__buttons">
+          <button class="footer__button" type="button">Start</button>
+          <button class="footer__button" type="button">Archive</button>
+        </div>
+        <div class="lower__buttons">
+          <button class="footer__button" type="button">Instructions</button>
+          <button class="footer__button" type="button">Style guide</button>
+          <button class="footer__button" type="button">Licenses</button>
+          <button class="footer__button" type="button">Changelog</button>
+        </div>
+      </div>
+    </div>
+  </div>
 </footer>
 </html>
